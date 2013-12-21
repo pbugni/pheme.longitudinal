@@ -8,6 +8,7 @@
 *.egg-info
 dist
 build
+**/_build
 eggs
 parts
 bin
@@ -27,10 +28,7 @@ pip-log.txt
 .tox
 nosetests.xml
 
-# Translations
-*.mo
-
-# Mr Developer
-.mr.developer.cfg
-.project
-.pydevproject
+# Editor backup files
+*~
+*.swp
+*.swo
