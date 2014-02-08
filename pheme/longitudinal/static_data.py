@@ -58,19 +58,9 @@ def dump():
     connection.disconnect()
 
 
-def load():
-    """Entry point to load static data from config file
-
-    View usage by calling with -h | --help.  See project's setup.py
-    entry_points for full name.
-
-    """
-    parser = argparse.ArgumentParser()
-    parser.add_argument("SOURCE", help='source file to import',
-                        type=argparse.FileType('r'))
-    args = parser.parse_args()
+def load_file(data_file):
     yaml.add_constructor(u'!DAO', obj_loader)
-    objects = yaml.load(args.SOURCE.read())
+    objects = yaml.load(data_file.read())
     # Foreign key constraints require we commit the Facilities
     # before the ReportableRegions
     facilities = [obj for obj in objects if isinstance(obj, Facility)]
@@ -82,3 +72,17 @@ def load():
     connection.session.add_all(the_rest)
     connection.session.commit()
     connection.disconnect()
+
+
+def load():
+    """Entry point to load static data from config file
+
+    View usage by calling with -h | --help.  See project's setup.py
+    entry_points for full name.
+
+    """
+    parser = argparse.ArgumentParser()
+    parser.add_argument("SOURCE", help='source file to import',
+                        type=argparse.FileType('r'))
+    args = parser.parse_args()
+    return load_file(args.SOURCE)
