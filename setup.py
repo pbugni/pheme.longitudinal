@@ -34,5 +34,7 @@ setup(name='pheme.longitudinal',
                     create_longitudinal_tables=pheme.longitudinal.tables:main
                     load_static_data=pheme.longitudinal.static_data:load
                     dump_static_data=pheme.longitudinal.static_data:dump
+                    generate_daily_essence_report=pheme.longitudinal.generate_daily_essence_report:main
+                    longitudinal_manager=pheme.longitudinal.longitudinal_manager:main
                     """),
 )

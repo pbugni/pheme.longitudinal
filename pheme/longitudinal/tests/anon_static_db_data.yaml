@@ -1,0 +1,201 @@
+- !DAO 'AdmissionSource(pk=''1'', description=''Non-health care facility point of
+  origin'')'
+- !DAO 'AdmissionSource(pk=''2'', description=''Clinic referral'')'
+- !DAO 'AdmissionSource(pk=''4'', description=''Transfer from a hospital ( acute care
+  facility)'')'
+- !DAO 'AdmissionSource(pk=''5'', description=''Transfer from a skilled nursing facility
+  (SNF) or Intermediate care facility (ICF)'')'
+- !DAO 'AdmissionSource(pk=''6'', description=''Transfer from another health care
+  facility'')'
+- !DAO 'AdmissionSource(pk=''7'', description=''Emergency room'')'
+- !DAO 'AdmissionSource(pk=''8'', description=''Court/law enforcement'')'
+- !DAO 'AdmissionSource(pk=''9'', description=''Information not available'')'
+- !DAO 'AdmissionSource(pk=''B'', description=''Transfer from another home health
+  agency'')'
+- !DAO 'AdmissionSource(pk=''C'', description=''Readmission to same  home health agency'')'
+- !DAO 'AdmissionSource(pk=''D'', description=''Transfer from Hospital Inpatient (
+  same facility- separate claim)'')'
+- !DAO 'Disposition(odin_mapping=''Not Admitted'', gipse_mapping=''Discharge'', description=''Discharged
+  to home or self care (routine discharge)'', code=1)'
+- !DAO 'Disposition(odin_mapping=''Admitted'', gipse_mapping=''Admit'', description=''Discharged
+  / transferred to a short-term general hospital for inpatient care '', code=2)'
+- !DAO 'Disposition(odin_mapping=''Not Admitted'', gipse_mapping=''Transfer'', description=''Discharged
+  / transferred to skilled nursing facility (SNF) with Medicare certification.'',
+  code=3)'
+- !DAO 'Disposition(odin_mapping=''Not Admitted'', gipse_mapping=''Transfer'', description=''Discharged
+  / transferred to an intermediate care facility (ICF)'', code=4)'
+- !DAO 'Disposition(odin_mapping=''Admitted'', gipse_mapping=''Transfer'', description=''Discharged
+  / transferred to another type of institution not defined elsewhere in this codelist'',
+  code=5)'
+- !DAO 'Disposition(odin_mapping=''Not Admitted'', gipse_mapping=''Discharge'', description=''Discharged
+  / transferred to home under care of organized home health service organization'',
+  code=6)'
+- !DAO 'Disposition(odin_mapping=''Not Admitted'', gipse_mapping=''Left'', description=''Left
+  against medical advice or discontinued care'', code=7)'
+- !DAO 'Disposition(odin_mapping=''Not Admitted'', gipse_mapping=''Discharge'', description=''Discharged/transferred
+  to home under care of a Home IV provider'', code=8)'
+- !DAO 'Disposition(odin_mapping=''Admitted'', gipse_mapping=''Admit'', description=''Admitted
+  as an inpatient to this hospital'', code=9)'
+- !DAO 'Disposition(odin_mapping=''Died'', gipse_mapping=''Expired'', description=''Expired'',
+  code=20)'
+- !DAO 'Disposition(odin_mapping=''Admitted'', gipse_mapping=''Not Discharged'', description=''Still
+  Patient '', code=30)'
+- !DAO 'Disposition(odin_mapping=''Died'', gipse_mapping=''Expired'', description=''Expired
+  at home'', code=40)'
+- !DAO 'Disposition(odin_mapping=''Died'', gipse_mapping=''Expired'', description=''Expired
+  in a medical facility (e.g. hospital, SNF, ICF, or free standing hospice) '', code=41)'
+- !DAO 'Disposition(odin_mapping=''Died'', gipse_mapping=''Expired'', description=''Expired
+  - place unknown'', code=42)'
+- !DAO 'Disposition(odin_mapping=''Not Admitted'', gipse_mapping=''Transfer'', description=''Discharged
+  / transferred to a federal health care facility.'', code=43)'
+- !DAO 'Disposition(odin_mapping=''Not Admitted'', gipse_mapping=''Discharge'', description=''Hospice
+  - home'', code=50)'
+- !DAO 'Disposition(odin_mapping=''Not Admitted'', gipse_mapping=''Transfer'', description=''Hospice
+  - medical facility'', code=51)'
+- !DAO 'Disposition(odin_mapping=''Not Admitted'', gipse_mapping=''Transfer'', description=''Discharged
+  / transferred to hospital-based Medicare approved swing bed '', code=61)'
+- !DAO 'Disposition(odin_mapping=''Not Admitted'', gipse_mapping=''Transfer'', description=''Discharged
+  / transferred to an inpatient rehabilitation facility (IRF) including rehabilitation
+  distinct part units of a hospital.'', code=62)'
+- !DAO 'Disposition(odin_mapping=''Not Admitted'', gipse_mapping=''Transfer'', description=''Discharged
+  / transferred to a Medicare certified long term care hospital (LTCH). '', code=63)'
+- !DAO 'Disposition(odin_mapping=''Not Admitted'', gipse_mapping=''Transfer'', description=''Discharged
+  / transferred to a nursing facility certified under Medicaid but not certified under
+  Medicare. '', code=64)'
+- !DAO 'Disposition(odin_mapping=''Not Admitted'', gipse_mapping=''Transfer'', description=''Discharged
+  / transferred to a psychiatric hospital or psychiatric distinct part unit of a hospital.
+  '', code=65)'
+- !DAO 'Disposition(odin_mapping=''Not Admitted'', gipse_mapping=''Transfer'', description=''Discharged
+  / transferred to a Critical Access Hospital (CAH).'', code=66)'
+- !DAO 'Disposition(odin_mapping=''Not Admitted'', gipse_mapping=''Transfer'', description=''Discharged/transferred
+  to another type of institution not defined elsewhere'', code=70)'
+- !DAO 'Facility(county=''Kyppoevnmi'', npi=1297242868, zip=''88560'', organization_name=''Site
+  zdwwmtx'', local_code=''Sug'')'
+- !DAO 'Facility(county=''Kyppoevnmi'', npi=1546594660, zip=''61152'', organization_name=''Site
+  mhqesfp'', local_code=''Tmy'')'
+- !DAO 'Facility(county=''Rdzdbgtfsj'', npi=1248325491, zip=''44666'', organization_name=''Site
+  yflymwd'', local_code=''Lqi'')'
+- !DAO 'Facility(county=''Mcwiwbxxiw'', npi=1740115428, zip=''94683'', organization_name=''Site
+  aggjpwx'', local_code=''Ken'')'
+- !DAO 'Facility(county=''Mcwiwbxxiw'', npi=1797342510, zip=''89155'', organization_name=''Site
+  aggjpwx'', local_code=''Ken'')'
+- !DAO 'Facility(county=''Ahixuatgeh'', npi=1805508849, zip=''89830'', organization_name=''Site
+  bixeetv'', local_code=''Kvq'')'
+- !DAO 'Facility(county=''Hpwzzzqhrq'', npi=1375543979, zip=''79073'', organization_name=''Site
+  jldbddi'', local_code=''Jyv'')'
+- !DAO 'Facility(county=''Fdtpzbigfc'', npi=1103523759, zip=''10608'', organization_name=''Site
+  fpxpoie'', local_code=''Xgx'')'
+- !DAO 'Facility(county=''Ahixuatgeh'', npi=1918373779, zip=''48110'', organization_name=''Site
+  crknprk'', local_code=''Ije'')'
+- !DAO 'Facility(county=''Rdzdbgtfsj'', npi=1317042444, zip=''60315'', organization_name=''Site
+  anosyld'', local_code=''Xve'')'
+- !DAO 'Facility(county=''Qcuztettjs'', npi=1168023507, zip=''77287'', organization_name=''Site
+  jfrypqf'', local_code=''Jra'')'
+- !DAO 'Facility(county=''Kyppoevnmi'', npi=1963740198, zip=''21082'', organization_name=''Site
+  ccanimn'', local_code=''Oaa'')'
+- !DAO 'Facility(county=''Kyppoevnmi'', npi=1203225754, zip=''70044'', organization_name=''Site
+  bvohblz'', local_code=''Zxj'')'
+- !DAO 'Facility(county=''Fqhrbabyxm'', npi=1319869330, zip=''77372'', organization_name=''Site
+  srextkq'', local_code=''Jfn'')'
+- !DAO 'Facility(county=''Ctgrieylmz'', npi=1638987055, zip=''27522'', organization_name=''Site
+  zankahv'', local_code=''Xwx'')'
+- !DAO 'Facility(county=''Xwdhgidbms'', npi=1332761733, zip=''04975'', organization_name=''Site
+  fywtqfn'', local_code=''Eje'')'
+- !DAO 'Facility(county=''Qtpcyzpueq'', npi=1771238687, zip=''70177'', organization_name=''Site
+  hdnofmp'', local_code=''Jrw'')'
+- !DAO 'Facility(county=''Jhfokaxanw'', npi=1401552144, zip=''52844'', organization_name=''Site
+  qunjnto'', local_code=''Iyo'')'
+- !DAO 'Facility(county=''Ybvwgapdxw'', npi=1167360668, zip=''69232'', organization_name=''Site
+  tylpoos'', local_code=''Rou'')'
+- !DAO 'Facility(county=''Yvbftelgqg'', npi=1727456360, zip=''76253'', organization_name=''Site
+  scuzdsm'', local_code=''Ixn'')'
+- !DAO 'Facility(county=''Ybvwgapdxw'', npi=1031823389, zip=''81467'', organization_name=''Site
+  etdvjpi'', local_code=''Mpn'')'
+- !DAO 'Facility(county=''Qcuztettjs'', npi=1343946992, zip=''07897'', organization_name=''Site
+  gxxiigl'', local_code=''Kvf'')'
+- !DAO 'Facility(county=''Pezllexgva'', npi=1669935894, zip=''12864'', organization_name=''Site
+  cwxwnvv'', local_code=''Pjh'')'
+- !DAO 'Facility(county=''Rdzdbgtfsj'', npi=1294891997, zip=''10531'', organization_name=''Site
+  avnppji'', local_code=''Wdk'')'
+- !DAO 'Facility(county=''Rdzdbgtfsj'', npi=1339220230, zip=''24003'', organization_name=''Site
+  oeoagjr'', local_code=''Fgk'')'
+- !DAO 'Facility(county=''Knawqejeks'', npi=1437344001, zip=''60822'', organization_name=''Site
+  tozxngk'', local_code=''Cjt'')'
+- !DAO 'Facility(county=''Rzxppyxbdv'', npi=1873417805, zip=''30638'', organization_name=''Site
+  hgeuyzs'', local_code=''Aob'')'
+- !DAO 'Facility(county=''Bwafrpodot'', npi=1295516687, zip=''77317'', organization_name=''Site
+  bvzshtj'', local_code=''Ojv'')'
+- !DAO 'Facility(county=''Axpmcxvatd'', npi=1340914468, zip=''49587'', organization_name=''Site
+  bflegsu'', local_code=''Cue'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1297242868, region_name=''Doky'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1546594660, region_name=''Doky'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1248325491, region_name=''Doky'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1740115428, region_name=''Doky'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1797342510, region_name=''Doky'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1805508849, region_name=''Doky'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1375543979, region_name=''Doky'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1103523759, region_name=''Doky'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1918373779, region_name=''Doky'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1317042444, region_name=''Doky'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1168023507, region_name=''Doky'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1963740198, region_name=''Doky'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1203225754, region_name=''Doky'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1401552144, region_name=''Doky'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1167360668, region_name=''Doky'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1727456360, region_name=''Doky'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1031823389, region_name=''Doky'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1343946992, region_name=''Doky'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1669935894, region_name=''Doky'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1294891997, region_name=''Doky'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1339220230, region_name=''Doky'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1437344001, region_name=''Doky'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1248325491, region_name=''Zsno'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1740115428, region_name=''Zsno'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1797342510, region_name=''Zsno'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1317042444, region_name=''Zsno'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1294891997, region_name=''Zsno'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1339220230, region_name=''Zsno'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1437344001, region_name=''Pzgk'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1297242868, region_name=''Otpj'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1546594660, region_name=''Otpj'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1805508849, region_name=''Otpj'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1375543979, region_name=''Otpj'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1103523759, region_name=''Otpj'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1918373779, region_name=''Otpj'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1168023507, region_name=''Otpj'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1963740198, region_name=''Otpj'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1203225754, region_name=''Otpj'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1401552144, region_name=''Otpj'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1167360668, region_name=''Otpj'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1727456360, region_name=''Otpj'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1031823389, region_name=''Otpj'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1343946992, region_name=''Otpj'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1669935894, region_name=''Otpj'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1297242868, region_name=''Ekek'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1546594660, region_name=''Ekek'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1248325491, region_name=''Ekek'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1740115428, region_name=''Ekek'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1797342510, region_name=''Ekek'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1805508849, region_name=''Ekek'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1375543979, region_name=''Ekek'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1103523759, region_name=''Ekek'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1918373779, region_name=''Ekek'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1317042444, region_name=''Ekek'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1168023507, region_name=''Ekek'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1963740198, region_name=''Ekek'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1203225754, region_name=''Ekek'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1319869330, region_name=''Ekek'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1638987055, region_name=''Ekek'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1332761733, region_name=''Ekek'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1771238687, region_name=''Ekek'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1401552144, region_name=''Ekek'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1167360668, region_name=''Ekek'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1727456360, region_name=''Ekek'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1031823389, region_name=''Ekek'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1343946992, region_name=''Ekek'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1669935894, region_name=''Ekek'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1294891997, region_name=''Ekek'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1339220230, region_name=''Ekek'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1437344001, region_name=''Ekek'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1295516687, region_name=''Ekek'')'
+- !DAO 'ReportableRegion(dim_facility_pk=1340914468, region_name=''Ekek'')'
